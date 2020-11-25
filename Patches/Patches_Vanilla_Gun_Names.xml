@@ -31,7 +31,7 @@ It was slow to reload and its single-action firing mechanism meant it had a slow
 	<Operation Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName = "Gun_Autopistol"]/description</xpath>
 			<value>
-					<description> M1911 Pistol is a single-action, semi-automatic, magazine-fed, recoil-operated pistol chambered for the 9×19mm Parabellum cartridge.
+					<description>M1911 Pistol is a single-action, semi-automatic, magazine-fed, recoil-operated pistol chambered for the 9×19mm Parabellum cartridge.
 					
 1911 is one of the most comfortable handguns ever made. Its mainspring housing, beavertail grip safety, single stack mag well, clean and crisp factory trigger, and simple sight picture just make it a dream to shoot. Its all-metal construction makes the gun feel weighted, but not heavy.</description>
 			</value>
