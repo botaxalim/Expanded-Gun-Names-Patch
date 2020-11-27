@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Weapons Expanded</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                
+				<li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_Gun_ServiceRifle"]/label</xpath>
+                    <value>
+                        <label>AK-47</label>
+                    </value>
+                </li>
+				
+				<li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_Gun_MarksmanRifle"]/label</xpath>
+                    <value>
+                        <label>SVD Dragunov</label>
+                    </value>
+                </li>
+				
+				<li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_Gun_SemiAutomaticRifle"]/label</xpath>
+                    <value>
+                        <label>SKS</label>
+                    </value>
+                </li>
+				                                
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_Gun_HandCannon"]/label</xpath>
+                    <value>
+                        <label>Chiappa Rhino</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_CombatHandgun"]/label</xpath>
+                    <value>
+                        <label>P220</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_Gun_LeverActionRifle"]/label</xpath>
+                    <value>
+                        <label>Winchester 1873</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_Gun_SMG"]/label</xpath>
+                    <value>
+                        <label>MP5K</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_Gun_LightSMG"]/label</xpath>
+                    <value>
+                        <label>UZI</label>
+                    </value>
+                </li>
+
+				<li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_Gun_HMG"]/label</xpath>
+                    <value>
+                        <label>Zastava M84</label>
+                    </value>
+                </li>
+				
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_Gun_BattleRifle"]/label</xpath>
+                    <value>
+                        <label>SCAR-H</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_Gun_Carbine"]/label</xpath>
+                    <value>
+                        <label>Steyr AUG</label>
+                    </value>
+                </li>
+
+				<li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VWE_Gun_AntiMaterialRifle"]/label</xpath>
+                    <value>
+                        <label>Barrett M82</label>
+                    </value>
+                </li>
+			</operations>	
+        </match>
+    </Operation>
+</Patch>
