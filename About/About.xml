@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Expanded Gun Names Patch</name>
+  <author>Botaxalim</author>
+  <supportedVersions>
+	<li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <packageId>Botaxalim.ExpandedGunNamesPatch</packageId>
+  <description> This mod changes gun names to the names of their real-life counterparts 
+  
+  for Vanilla, Vanilla Weapons Expanded, Vanilla Weapons Expanded Quickdraw and Vanilla Faction Expanded - Settlers .</description>
+  <loadAfter>
+    <li>VanillaExpanded.VWE</li>
+    <li>VanillaExpanded.VWEQ</li>
+	<li>OskarPotocki.VanillaFactionsExpanded.SettlersModule</li>
+  </loadAfter>
+</ModMetaData>
