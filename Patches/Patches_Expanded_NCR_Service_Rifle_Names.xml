@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>NCR service rifle</li>
+        </mods>
+		<match Class="PatchOperationSequence">
+            <operations>
+				<li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="NCRServiceRifle"]/label</xpath>
+                    <value>
+                        <label>Armalite AR-15</label>
+                    </value>
+                </li>			
+				<li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="NCRServiceRifle"]/graphicData</xpath>
+                    <value>
+                        <graphicData>
+							<texPath>Things/Item/Equipment/WeaponRanged/FNVService_Rifle</texPath>
+						</graphicData>
+                    </value>
+                </li>
+				
+            </operations>
+        </match>
+    </Operation>
+</Patch>
