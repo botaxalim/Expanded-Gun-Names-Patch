@@ -96,16 +96,16 @@ Lee–Enfield rifles are still popular in the Rimworld, despite the presence and
 	<Operation Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName = "Gun_HeavySMG"]/label</xpath>
 			<value>
-					<label>FAMAE SAF</label>
+					<label>MP5A2</label>
 			</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName = "Gun_HeavySMG"]/description</xpath>
 			<value>
-				<description>The SAF is a blowback-operated select-fire gun, firing from a closed bolt.
+				<description>MP5A2 which is a lightweight, air-cooled, selective fire delayed blowback operated 9×19mm Parabellum weapon with a roller-delayed bolt. It fires from a closed bolt (bolt forward) position.
 				
-The FAMAE SAF submachine gun is produced and manufactured by FAMAE .40 S&amp;W ammunition gives the SAF quite the punch.</description>
+The MP5A2 has a fixed buttstock (made of a synthetic polymer)"SEF" trigger group. Popular submachine gun with excellent handling, capacity, accuracy, and rate of fire.</description>
 			</value>
 	</Operation>
 	
